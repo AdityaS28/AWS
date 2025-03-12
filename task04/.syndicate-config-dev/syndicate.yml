@@ -1,0 +1,16 @@
+account_id: '890742610830'
+deploy_target_bucket: syndicate-education-platform-custom-sandbox-artifacts-6675/c8a19ae6/task04
+expiration: 2025-03-12 10:09:15.316745+00:00
+extended_prefix_mode: true
+project_path: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04
+region: eu-west-1
+resources_prefix: cmtr-c8a19ae6-
+tags:
+  run_id: JAP-11
+  run_type: stm
+  type: user
+  user_id: c8a19ae6
+temp_aws_access_key_id: ASIA46ZDFTOHM6RISMF3
+temp_aws_secret_access_key: Qu/Bliq3AgH19rFt3Iu4e/5mDSus0yDbnL0jd5He
+temp_aws_session_token: IQoJb3JpZ2luX2VjEHIaCXVzLWVhc3QtMSJHMEUCIQDOWDJRHZHVIc+YroEl1qEEJimXRVvWR5pvPnB09CmP1QIgCmnLPBgOCeSm4cdCZcMHOh5fUP/1Cs7RbdcPRm8dWzwq4AIIuv//////////ARAAGgw4OTA3NDI2MTA4MzAiDKk+n+akWrcjShd4/Sq0AozTUVIkZsIH3G0imSLnZ7gUl6xclsNPMcCxKI+PgFp/HfryzSOG+ZBTii9d88Hhyr26Q5snCPUi41bQVa3mT2wi2qJFq4MF2O8u9gNdOiaagE6oVgOl/KQssT6hP4wi3ndjUWC6OVwuJGPopjpWh239iEp/LJMqOxDXTmYtSQqM82y4eF7xRyARuEAhTnxzRbOkevwdAkSry62XgN7YyKRAI4EFh9v7r3f8eN7uJy6LjVbkE/QOg8G5AgcSBUw1KdNCuLhL0rd8XPKY9XVRh/89nYk8Ocogyn4yLjNELomcrLtkczQ+Yy1wTuIvUq56R09voDhv9+cw2npuq/9O0cdWwkMKxaw0AjLpKZ1TpioghcRneQBO2ux0LbmY6vywgAI1XsiGxgDAhOnDGLdqtACahCjEMPuixb4GOp0BNViVUpFbWh10yo3Fa4Z4f5oQRMMjEBDfKyDbfidmEyGtPPNQaB1SBnLgAi1MuJCKlJZj9DxnjrAjheoy/Pizk8QRNle3ZY8PivbiLBznmgxGQPpQpfe3UvoUhrUZY0QUIYFPO4JHPg/HGfT6qG4nC23WvOoMmcTAgmrP+np5ead0jFIU58wOrbwodDQBNXkWcZGGu71O6Y2XIQ+KNQ==
+use_temp_creds: false

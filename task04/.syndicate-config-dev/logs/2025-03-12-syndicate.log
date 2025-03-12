@@ -1,0 +1,203 @@
+2025-03-12 14:51:31,407 [INFO] USER:aditya_shekhar handlers.py:106:syndicate LOG: Configuration used: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\.syndicate-config-dev
+2025-03-12 14:51:33,680 [WARNING] USER:aditya_shekhar __init__.py:190:initialize_project_state LOG: [93mConfig is set and generated but project state does not exist, seems that you've come from the previous version.[0m
+2025-03-12 14:51:33,680 [WARNING] USER:aditya_shekhar __init__.py:193:initialize_project_state LOG: [93mGenerating project state file (.syndicate) from the existing structure...[0m
+2025-03-12 14:51:33,684 [INFO] USER:aditya_shekhar project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\app\lambdas.
+2025-03-12 14:51:33,685 [INFO] USER:aditya_shekhar project_state.py:400:_update_lambdas_from_path LOG: Going to add the following 'nodejs' lambda:'sns_handler' to the pending ProjectState.
+2025-03-12 14:51:33,685 [INFO] USER:aditya_shekhar project_state.py:400:_update_lambdas_from_path LOG: Going to add the following 'nodejs' lambda:'sqs_handler' to the pending ProjectState.
+2025-03-12 14:51:33,687 [INFO] USER:aditya_shekhar processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-03-12 14:51:35,547 [INFO] USER:aditya_shekhar sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 14:51:37,493 [INFO] USER:aditya_shekhar handlers.py:142:test LOG: Running tests...
+2025-03-12 14:51:37,493 [INFO] USER:aditya_shekhar handlers.py:150:test LOG: Tests not found, 'tests' folder is missing in 'C:/Users/aditya_shekhar/Desktop/epam-projects/AWS/AWS/task04'.
+2025-03-12 14:51:37,495 [INFO] USER:aditya_shekhar helper.py:330:timed LOG: Stage test, elapsed time: 0:00:00.002083
+2025-03-12 14:51:37,519 [INFO] USER:aditya_shekhar handlers.py:993:assemble LOG: Building artifacts, bundle: task04_250312.145135
+2025-03-12 14:51:37,520 [INFO] USER:aditya_shekhar project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\jsrc\main\java\com\task04.
+2025-03-12 14:51:37,520 [INFO] USER:aditya_shekhar project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\src\lambdas.
+2025-03-12 14:51:37,520 [INFO] USER:aditya_shekhar project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\app\lambdas.
+2025-03-12 14:51:37,521 [INFO] USER:aditya_shekhar project_state.py:400:_update_lambdas_from_path LOG: Going to add the following 'nodejs' lambda:'sns_handler' to the pending ProjectState.
+2025-03-12 14:51:37,521 [INFO] USER:aditya_shekhar project_state.py:400:_update_lambdas_from_path LOG: Going to add the following 'nodejs' lambda:'sqs_handler' to the pending ProjectState.
+2025-03-12 14:51:37,521 [INFO] USER:aditya_shekhar project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\dnapp\lambdas.
+2025-03-12 14:51:37,521 [INFO] USER:aditya_shekhar project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\swagger_src.
+2025-03-12 14:51:37,521 [INFO] USER:aditya_shekhar project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\appsync_src.
+2025-03-12 14:51:37,523 [INFO] USER:aditya_shekhar handlers.py:821:assemble_node LOG: Command assemble node: project_path: app 
+2025-03-12 14:51:37,525 [INFO] USER:aditya_shekhar nodejs.py:58:assemble_node_lambdas LOG: Going to package lambdas starting by path C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\app
+2025-03-12 14:51:37,525 [INFO] USER:aditya_shekhar nodejs.py:64:assemble_node_lambdas LOG: Going to build artifact in: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\app\lambdas\sns_handler
+2025-03-12 14:51:37,527 [INFO] USER:aditya_shekhar nodejs.py:64:assemble_node_lambdas LOG: Going to build artifact in: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\app\lambdas\sqs_handler
+2025-03-12 14:51:38,910 [INFO] USER:aditya_shekhar nodejs.py:123:install_requirements LOG: Artifacts path: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\.syndicate-config-dev\bundles\task04_250312.145135\sns_handler-1.0
+2025-03-12 14:51:38,927 [INFO] USER:aditya_shekhar nodejs.py:123:install_requirements LOG: Artifacts path: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\.syndicate-config-dev\bundles\task04_250312.145135\sqs_handler-1.0
+2025-03-12 14:51:40,739 [INFO] USER:aditya_shekhar helper.py:107:execute_command_by_path LOG: Running the command "npm install"
+
+up to date, audited 1 package in 1s
+
+found 0 vulnerabilities
+
+
+2025-03-12 14:51:40,740 [INFO] USER:aditya_shekhar nodejs.py:142:install_requirements LOG: No dependencies folder - nothing to copy.
+2025-03-12 14:51:40,746 [INFO] USER:aditya_shekhar helper.py:107:execute_command_by_path LOG: Running the command "npm install"
+
+up to date, audited 1 package in 1s
+
+found 0 vulnerabilities
+
+
+2025-03-12 14:51:40,747 [INFO] USER:aditya_shekhar nodejs.py:142:install_requirements LOG: No dependencies folder - nothing to copy.
+2025-03-12 14:51:40,755 [INFO] USER:aditya_shekhar handlers.py:830:assemble_node LOG: NodeJS artifacts were prepared successfully.
+2025-03-12 14:51:40,756 [INFO] USER:aditya_shekhar helper.py:330:timed LOG: Stage assemble_node, elapsed time: 0:00:03.232953
+2025-03-12 14:51:40,758 [INFO] USER:aditya_shekhar helper.py:330:timed LOG: Stage assemble, elapsed time: 0:00:03.239269
+2025-03-12 14:51:40,760 [INFO] USER:aditya_shekhar handlers.py:1037:package_meta LOG: Package meta, bundle: task04_250312.145135
+2025-03-12 14:51:40,761 [INFO] USER:aditya_shekhar meta_processor.py:513:create_meta LOG: Bundle path: C:/Users/aditya_shekhar/Desktop/epam-projects/AWS/AWS/task04/bundles/task04_250312.145135
+2025-03-12 14:51:40,765 [INFO] USER:aditya_shekhar helper.py:292:write_content_to_file LOG: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\.syndicate-config-dev/bundles/task04_250312.145135\build_meta.json file was created.
+2025-03-12 14:51:40,765 [INFO] USER:aditya_shekhar handlers.py:1040:package_meta LOG: Meta was configured successfully.
+2025-03-12 14:51:40,765 [INFO] USER:aditya_shekhar helper.py:330:timed LOG: Stage package_meta, elapsed time: 0:00:00.005157
+2025-03-12 14:51:40,970 [INFO] USER:aditya_shekhar handlers.py:1083:upload LOG: Upload bundle: task04_250312.145135
+2025-03-12 14:51:41,898 [INFO] USER:aditya_shekhar bundle_processor.py:232:upload_bundle_to_s3 LOG: Bundle was validated successfully
+2025-03-12 14:51:43,657 [INFO] USER:aditya_shekhar handlers.py:1090:upload LOG: Bundle was uploaded successfully
+2025-03-12 14:51:43,657 [INFO] USER:aditya_shekhar helper.py:330:timed LOG: Stage upload, elapsed time: 0:00:02.890074
+2025-03-12 14:51:43,661 [INFO] USER:aditya_shekhar helper.py:330:timed LOG: Stage build, elapsed time: 0:00:08.095830
+2025-03-12 14:51:58,524 [INFO] USER:aditya_shekhar handlers.py:106:syndicate LOG: Configuration used: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\.syndicate-config-dev
+2025-03-12 14:52:00,798 [INFO] USER:aditya_shekhar processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-03-12 14:52:05,523 [INFO] USER:aditya_shekhar project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 14:52:05,523 [INFO] USER:aditya_shekhar project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 14:52:05,951 [INFO] USER:aditya_shekhar sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 14:52:06,288 [INFO] USER:aditya_shekhar project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 14:52:06,288 [INFO] USER:aditya_shekhar project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 14:52:06,671 [INFO] USER:aditya_shekhar sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 14:52:06,672 [INFO] USER:aditya_shekhar helper.py:233:resolve_default_value LOG: Resolved value of deploy_name: task04
+2025-03-12 14:52:07,050 [INFO] USER:aditya_shekhar project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 14:52:07,050 [INFO] USER:aditya_shekhar project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 14:52:07,417 [INFO] USER:aditya_shekhar sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 14:52:07,417 [INFO] USER:aditya_shekhar helper.py:233:resolve_default_value LOG: Resolved value of bundle_name: task04_250312.145135
+2025-03-12 14:52:07,802 [INFO] USER:aditya_shekhar project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 14:52:07,802 [INFO] USER:aditya_shekhar project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 14:52:08,214 [INFO] USER:aditya_shekhar sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 14:52:08,623 [INFO] USER:aditya_shekhar project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 14:52:08,623 [INFO] USER:aditya_shekhar project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 14:52:09,004 [INFO] USER:aditya_shekhar sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 14:52:12,617 [INFO] USER:aditya_shekhar deployment_processor.py:466:create_deployment_resources LOG: Prefixes and suffixes of any resource names have been resolved
+2025-03-12 14:52:12,618 [INFO] USER:aditya_shekhar deployment_processor.py:489:create_deployment_resources LOG: Going to deploy AWS resources
+2025-03-12 14:52:12,963 [INFO] USER:aditya_shekhar deployment_processor.py:74:_process_resources LOG: Processing iam_policy resources
+2025-03-12 14:52:14,968 [WARNING] USER:aditya_shekhar iam_resource.py:115:_create_policy_from_meta LOG: IAM policy cmtr-c8a19ae6-lambda-basic-execution exists.
+2025-03-12 14:52:15,268 [INFO] USER:aditya_shekhar deployment_processor.py:74:_process_resources LOG: Processing iam_role resources
+2025-03-12 14:52:17,021 [WARNING] USER:aditya_shekhar iam_resource.py:141:_create_role_from_meta LOG: IAM role cmtr-c8a19ae6-sqs_handler-role exists.
+2025-03-12 14:52:21,650 [INFO] USER:aditya_shekhar iam_resource.py:183:_create_role_from_meta LOG: Created IAM role cmtr-c8a19ae6-sns_handler-role.
+2025-03-12 14:52:21,651 [INFO] USER:aditya_shekhar deployment_processor.py:74:_process_resources LOG: Processing sns_topic resources
+2025-03-12 14:52:23,412 [ERROR] USER:aditya_shekhar deployment_processor.py:387:process_response LOG: Caused by resource named cmtr-c8a19ae6-lambda_topic. An error occurred (AuthorizationError) when calling the ListTopics operation: User: arn:aws:sts::890742610830:assumed-role/cmtr_syndicate_student_programmatic_accessv2/c8a19ae6 is not authorized to perform: SNS:ListTopics on resource: arn:aws:sns:eu-central-1:890742610830:* with an explicit deny in a service control policy
+2025-03-12 14:52:23,413 [INFO] USER:aditya_shekhar deployment_processor.py:74:_process_resources LOG: Processing sqs_queue resources
+2025-03-12 14:52:25,310 [INFO] USER:aditya_shekhar sqs_resource.py:133:_create_sqs_queue_from_meta LOG: Created SQS queue cmtr-c8a19ae6-async_queue.
+2025-03-12 14:52:25,516 [INFO] USER:aditya_shekhar deployment_processor.py:88:_process_resources LOG: Processing lambda resources
+2025-03-12 14:52:33,105 [INFO] USER:aditya_shekhar lambda_resource.py:1394:_resolve_log_group LOG: Cloud Watch log group for lambda: cmtr-c8a19ae6-sqs_handler does not exists. Creating new log group with name: aws/lambda/cmtr-c8a19ae6-sqs_handler
+2025-03-12 14:52:34,765 [INFO] USER:aditya_shekhar lambda_resource.py:1394:_resolve_log_group LOG: Cloud Watch log group for lambda: cmtr-c8a19ae6-sns_handler does not exists. Creating new log group with name: aws/lambda/cmtr-c8a19ae6-sns_handler
+2025-03-12 14:52:36,779 [WARNING] USER:aditya_shekhar helper.py:121:wrapper LOG: Retry on add_event_source. Error: An error occurred (InvalidParameterValueException) when calling the CreateEventSourceMapping operation: The function execution role does not have permissions to call ReceiveMessage on SQS
+2025-03-12 14:52:38,108 [WARNING] USER:aditya_shekhar helper.py:121:wrapper LOG: Retry on add_event_source. Error: An error occurred (InvalidParameterValueException) when calling the CreateEventSourceMapping operation: The function execution role does not have permissions to call ReceiveMessage on SQS
+2025-03-12 14:52:38,193 [WARNING] USER:aditya_shekhar lambda_resource.py:943:_create_sns_topic_trigger_from_meta LOG: SNS topic cmtr-c8a19ae6-lambda_topic does not exist and could not be configured as a trigger for lambda cmtr-c8a19ae6-sns_handler
+2025-03-12 14:52:42,618 [WARNING] USER:aditya_shekhar helper.py:121:wrapper LOG: Retry on add_event_source. Error: An error occurred (InvalidParameterValueException) when calling the CreateEventSourceMapping operation: The function execution role does not have permissions to call ReceiveMessage on SQS
+2025-03-12 14:52:49,982 [WARNING] USER:aditya_shekhar helper.py:121:wrapper LOG: Retry on add_event_source. Error: An error occurred (InvalidParameterValueException) when calling the CreateEventSourceMapping operation: The function execution role does not have permissions to call ReceiveMessage on SQS
+2025-03-12 14:53:00,324 [WARNING] USER:aditya_shekhar helper.py:121:wrapper LOG: Retry on add_event_source. Error: An error occurred (InvalidParameterValueException) when calling the CreateEventSourceMapping operation: The function execution role does not have permissions to call ReceiveMessage on SQS
+2025-03-12 14:53:13,681 [WARNING] USER:aditya_shekhar helper.py:121:wrapper LOG: Retry on add_event_source. Error: An error occurred (InvalidParameterValueException) when calling the CreateEventSourceMapping operation: The function execution role does not have permissions to call ReceiveMessage on SQS
+2025-03-12 14:53:30,031 [WARNING] USER:aditya_shekhar helper.py:121:wrapper LOG: Retry on add_event_source. Error: An error occurred (InvalidParameterValueException) when calling the CreateEventSourceMapping operation: The function execution role does not have permissions to call ReceiveMessage on SQS
+2025-03-12 14:53:49,327 [WARNING] USER:aditya_shekhar helper.py:121:wrapper LOG: Retry on add_event_source. Error: An error occurred (InvalidParameterValueException) when calling the CreateEventSourceMapping operation: The function execution role does not have permissions to call ReceiveMessage on SQS
+2025-03-12 14:54:11,706 [WARNING] USER:aditya_shekhar helper.py:121:wrapper LOG: Retry on add_event_source. Error: An error occurred (InvalidParameterValueException) when calling the CreateEventSourceMapping operation: The function execution role does not have permissions to call ReceiveMessage on SQS
+2025-03-12 14:54:37,030 [WARNING] USER:aditya_shekhar helper.py:121:wrapper LOG: Retry on add_event_source. Error: An error occurred (InvalidParameterValueException) when calling the CreateEventSourceMapping operation: The function execution role does not have permissions to call ReceiveMessage on SQS
+2025-03-12 14:55:05,322 [WARNING] USER:aditya_shekhar helper.py:121:wrapper LOG: Retry on add_event_source. Error: An error occurred (InvalidParameterValueException) when calling the CreateEventSourceMapping operation: The function execution role does not have permissions to call ReceiveMessage on SQS
+2025-03-12 14:55:36,696 [WARNING] USER:aditya_shekhar helper.py:121:wrapper LOG: Retry on add_event_source. Error: An error occurred (InvalidParameterValueException) when calling the CreateEventSourceMapping operation: The function execution role does not have permissions to call ReceiveMessage on SQS
+2025-03-12 14:56:10,699 [WARNING] USER:aditya_shekhar helper.py:724:handle_interruption LOG: Releasing the project state lock modification_lock,due to user interruption.
+2025-03-12 14:56:12,444 [INFO] USER:aditya_shekhar project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 14:56:12,444 [INFO] USER:aditya_shekhar project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 14:56:12,845 [INFO] USER:aditya_shekhar sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:01:55,760 [INFO] USER:aditya_shekhar handlers.py:106:syndicate LOG: Configuration used: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\.syndicate-config-dev
+2025-03-12 15:01:58,042 [INFO] USER:aditya_shekhar processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-03-12 15:01:59,584 [INFO] USER:aditya_shekhar project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:01:59,585 [INFO] USER:aditya_shekhar project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:01:59,987 [INFO] USER:aditya_shekhar sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:02:01,726 [INFO] USER:aditya_shekhar handlers.py:142:test LOG: Running tests...
+2025-03-12 15:02:01,727 [INFO] USER:aditya_shekhar handlers.py:150:test LOG: Tests not found, 'tests' folder is missing in 'C:/Users/aditya_shekhar/Desktop/epam-projects/AWS/AWS/task04'.
+2025-03-12 15:02:01,727 [INFO] USER:aditya_shekhar helper.py:330:timed LOG: Stage test, elapsed time: 0:00:00.001601
+2025-03-12 15:02:01,733 [INFO] USER:aditya_shekhar handlers.py:993:assemble LOG: Building artifacts, bundle: task04_250312.150159
+2025-03-12 15:02:01,735 [INFO] USER:aditya_shekhar project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\jsrc\main\java\com\task04.
+2025-03-12 15:02:01,735 [INFO] USER:aditya_shekhar project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\src\lambdas.
+2025-03-12 15:02:01,735 [INFO] USER:aditya_shekhar project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\app\lambdas.
+2025-03-12 15:02:01,736 [INFO] USER:aditya_shekhar project_state.py:400:_update_lambdas_from_path LOG: Going to add the following 'nodejs' lambda:'sns_handler' to the pending ProjectState.
+2025-03-12 15:02:01,736 [INFO] USER:aditya_shekhar project_state.py:400:_update_lambdas_from_path LOG: Going to add the following 'nodejs' lambda:'sqs_handler' to the pending ProjectState.
+2025-03-12 15:02:01,736 [INFO] USER:aditya_shekhar project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\dnapp\lambdas.
+2025-03-12 15:02:01,737 [INFO] USER:aditya_shekhar project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\swagger_src.
+2025-03-12 15:02:01,737 [INFO] USER:aditya_shekhar project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\appsync_src.
+2025-03-12 15:02:01,743 [INFO] USER:aditya_shekhar handlers.py:821:assemble_node LOG: Command assemble node: project_path: app 
+2025-03-12 15:02:01,745 [INFO] USER:aditya_shekhar nodejs.py:58:assemble_node_lambdas LOG: Going to package lambdas starting by path C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\app
+2025-03-12 15:02:01,746 [INFO] USER:aditya_shekhar nodejs.py:64:assemble_node_lambdas LOG: Going to build artifact in: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\app\lambdas\sns_handler
+2025-03-12 15:02:01,748 [INFO] USER:aditya_shekhar nodejs.py:64:assemble_node_lambdas LOG: Going to build artifact in: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\app\lambdas\sqs_handler
+2025-03-12 15:02:02,657 [INFO] USER:aditya_shekhar nodejs.py:123:install_requirements LOG: Artifacts path: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\.syndicate-config-dev\bundles\task04_250312.150159\sqs_handler-1.0
+2025-03-12 15:02:02,657 [INFO] USER:aditya_shekhar nodejs.py:123:install_requirements LOG: Artifacts path: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\.syndicate-config-dev\bundles\task04_250312.150159\sns_handler-1.0
+2025-03-12 15:02:03,727 [INFO] USER:aditya_shekhar helper.py:107:execute_command_by_path LOG: Running the command "npm install"
+
+up to date, audited 1 package in 495ms
+
+found 0 vulnerabilities
+
+
+2025-03-12 15:02:03,728 [INFO] USER:aditya_shekhar nodejs.py:142:install_requirements LOG: No dependencies folder - nothing to copy.
+2025-03-12 15:02:03,729 [INFO] USER:aditya_shekhar helper.py:107:execute_command_by_path LOG: Running the command "npm install"
+
+up to date, audited 1 package in 494ms
+
+found 0 vulnerabilities
+
+
+2025-03-12 15:02:03,729 [INFO] USER:aditya_shekhar nodejs.py:142:install_requirements LOG: No dependencies folder - nothing to copy.
+2025-03-12 15:02:03,752 [INFO] USER:aditya_shekhar handlers.py:830:assemble_node LOG: NodeJS artifacts were prepared successfully.
+2025-03-12 15:02:03,753 [INFO] USER:aditya_shekhar helper.py:330:timed LOG: Stage assemble_node, elapsed time: 0:00:02.009917
+2025-03-12 15:02:03,756 [INFO] USER:aditya_shekhar helper.py:330:timed LOG: Stage assemble, elapsed time: 0:00:02.022415
+2025-03-12 15:02:03,759 [INFO] USER:aditya_shekhar handlers.py:1037:package_meta LOG: Package meta, bundle: task04_250312.150159
+2025-03-12 15:02:03,759 [INFO] USER:aditya_shekhar meta_processor.py:513:create_meta LOG: Bundle path: C:/Users/aditya_shekhar/Desktop/epam-projects/AWS/AWS/task04/bundles/task04_250312.150159
+2025-03-12 15:02:03,763 [INFO] USER:aditya_shekhar helper.py:292:write_content_to_file LOG: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\.syndicate-config-dev/bundles/task04_250312.150159\build_meta.json file was created.
+2025-03-12 15:02:03,763 [INFO] USER:aditya_shekhar handlers.py:1040:package_meta LOG: Meta was configured successfully.
+2025-03-12 15:02:03,764 [INFO] USER:aditya_shekhar helper.py:330:timed LOG: Stage package_meta, elapsed time: 0:00:00.005040
+2025-03-12 15:02:03,981 [INFO] USER:aditya_shekhar handlers.py:1083:upload LOG: Upload bundle: task04_250312.150159
+2025-03-12 15:02:04,388 [INFO] USER:aditya_shekhar bundle_processor.py:232:upload_bundle_to_s3 LOG: Bundle was validated successfully
+2025-03-12 15:02:05,793 [INFO] USER:aditya_shekhar handlers.py:1090:upload LOG: Bundle was uploaded successfully
+2025-03-12 15:02:05,794 [INFO] USER:aditya_shekhar helper.py:330:timed LOG: Stage upload, elapsed time: 0:00:02.025544
+2025-03-12 15:02:05,804 [INFO] USER:aditya_shekhar helper.py:330:timed LOG: Stage build, elapsed time: 0:00:05.815377
+2025-03-12 15:02:08,748 [INFO] USER:aditya_shekhar handlers.py:106:syndicate LOG: Configuration used: C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task04\.syndicate-config-dev
+2025-03-12 15:02:11,025 [INFO] USER:aditya_shekhar processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-03-12 15:02:12,587 [INFO] USER:aditya_shekhar project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:02:12,587 [INFO] USER:aditya_shekhar project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:02:12,991 [INFO] USER:aditya_shekhar sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:02:13,407 [INFO] USER:aditya_shekhar project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:02:13,408 [INFO] USER:aditya_shekhar project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:02:13,808 [INFO] USER:aditya_shekhar sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:02:13,809 [INFO] USER:aditya_shekhar helper.py:233:resolve_default_value LOG: Resolved value of deploy_name: task04
+2025-03-12 15:02:14,227 [INFO] USER:aditya_shekhar project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:02:14,227 [INFO] USER:aditya_shekhar project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:02:14,733 [INFO] USER:aditya_shekhar sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:02:14,733 [INFO] USER:aditya_shekhar helper.py:233:resolve_default_value LOG: Resolved value of bundle_name: task04_250312.150159
+2025-03-12 15:02:15,150 [INFO] USER:aditya_shekhar project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:02:15,150 [INFO] USER:aditya_shekhar project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:02:15,550 [INFO] USER:aditya_shekhar sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:02:15,970 [INFO] USER:aditya_shekhar project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:02:15,970 [INFO] USER:aditya_shekhar project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:02:16,370 [INFO] USER:aditya_shekhar sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:02:18,934 [INFO] USER:aditya_shekhar deployment_processor.py:466:create_deployment_resources LOG: Prefixes and suffixes of any resource names have been resolved
+2025-03-12 15:02:18,934 [INFO] USER:aditya_shekhar deployment_processor.py:489:create_deployment_resources LOG: Going to deploy AWS resources
+2025-03-12 15:02:19,205 [INFO] USER:aditya_shekhar deployment_processor.py:74:_process_resources LOG: Processing iam_policy resources
+2025-03-12 15:02:20,941 [WARNING] USER:aditya_shekhar iam_resource.py:115:_create_policy_from_meta LOG: IAM policy cmtr-c8a19ae6-lambda-basic-execution exists.
+2025-03-12 15:02:21,264 [INFO] USER:aditya_shekhar deployment_processor.py:74:_process_resources LOG: Processing iam_role resources
+2025-03-12 15:02:21,593 [WARNING] USER:aditya_shekhar iam_resource.py:141:_create_role_from_meta LOG: IAM role cmtr-c8a19ae6-sns_handler-role exists.
+2025-03-12 15:02:23,021 [WARNING] USER:aditya_shekhar iam_resource.py:141:_create_role_from_meta LOG: IAM role cmtr-c8a19ae6-sqs_handler-role exists.
+2025-03-12 15:02:23,023 [INFO] USER:aditya_shekhar deployment_processor.py:74:_process_resources LOG: Processing sns_topic resources
+2025-03-12 15:02:24,662 [INFO] USER:aditya_shekhar sns_resource.py:156:_create_sns_topic_from_meta LOG: SNS topic cmtr-c8a19ae6-lambda_topic in region eu-west-1 created.
+2025-03-12 15:02:24,868 [INFO] USER:aditya_shekhar deployment_processor.py:74:_process_resources LOG: Processing sqs_queue resources
+2025-03-12 15:02:26,300 [WARNING] USER:aditya_shekhar sqs_resource.py:104:_create_sqs_queue_from_meta LOG: SQS queue cmtr-c8a19ae6-async_queue exists.
+2025-03-12 15:02:26,512 [INFO] USER:aditya_shekhar deployment_processor.py:88:_process_resources LOG: Processing lambda resources
+2025-03-12 15:02:28,975 [WARNING] USER:aditya_shekhar lambda_resource.py:313:_create_lambda_from_meta LOG: cmtr-c8a19ae6-sqs_handler lambda exists.
+2025-03-12 15:02:29,697 [WARNING] USER:aditya_shekhar lambda_resource.py:313:_create_lambda_from_meta LOG: cmtr-c8a19ae6-sns_handler lambda exists.
+2025-03-12 15:02:29,699 [INFO] USER:aditya_shekhar deployment_processor.py:540:create_deployment_resources LOG: AWS resources were deployed successfully
+2025-03-12 15:02:29,700 [INFO] USER:aditya_shekhar deployment_processor.py:543:create_deployment_resources LOG: Going to apply dynamic changes
+2025-03-12 15:02:29,700 [INFO] USER:aditya_shekhar deployment_processor.py:545:create_deployment_resources LOG: Dynamic changes were applied successfully
+2025-03-12 15:02:29,701 [INFO] USER:aditya_shekhar deployment_processor.py:547:create_deployment_resources LOG: Going to apply post deployment tags
+2025-03-12 15:02:29,737 [INFO] USER:aditya_shekhar group_tagging_api_resource.py:135:apply_tags LOG: Tags were successfully applied
+2025-03-12 15:02:29,737 [INFO] USER:aditya_shekhar deployment_processor.py:550:create_deployment_resources LOG: Going to create deploy output
+2025-03-12 15:02:31,427 [INFO] USER:aditya_shekhar bundle_processor.py:71:create_deploy_output LOG: Output file with name task04_250312.150159/outputs/task04.json has been created
+2025-03-12 15:02:31,427 [INFO] USER:aditya_shekhar deployment_processor.py:560:create_deployment_resources LOG: Deploy output for task04 was created.
+2025-03-12 15:02:31,428 [INFO] USER:aditya_shekhar handlers.py:347:deploy LOG: Backend resources were deployed.
+2025-03-12 15:02:31,428 [INFO] USER:aditya_shekhar helper.py:330:timed LOG: Stage deploy, elapsed time: 0:00:15.057800
+2025-03-12 15:02:32,044 [INFO] USER:aditya_shekhar project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:02:32,044 [INFO] USER:aditya_shekhar project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:02:32,446 [INFO] USER:aditya_shekhar sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
