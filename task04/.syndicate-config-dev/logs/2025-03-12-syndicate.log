@@ -201,3 +201,15 @@ found 0 vulnerabilities
 2025-03-12 15:02:32,044 [INFO] USER:aditya_shekhar project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
 2025-03-12 15:02:32,044 [INFO] USER:aditya_shekhar project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
 2025-03-12 15:02:32,446 [INFO] USER:aditya_shekhar sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:17:37,618 [INFO] USER:aditya_shekhar s3_resource.py:40:validate_bucket_name LOG: Starting validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6675'
+2025-03-12 15:17:37,619 [INFO] USER:aditya_shekhar s3_resource.py:73:validate_bucket_name LOG: Finished validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6675'
+2025-03-12 15:17:37,619 [INFO] USER:aditya_shekhar helper.py:525:convert LOG: Stripping run_id:JAP-11,run_type:stm,type:user,user_id:c8a19ae6 from "," a bit..
+2025-03-12 15:17:37,619 [INFO] USER:aditya_shekhar helper.py:529:convert LOG: Converting: run_id:JAP-11,run_type:stm,type:user,user_id:c8a19ae6 to dict..
+2025-03-12 15:17:37,619 [INFO] USER:aditya_shekhar helper.py:541:convert LOG: Converted to such a dict: {'run_id': 'JAP-11', 'run_type': 'stm', 'type': 'user', 'user_id': 'c8a19ae6'}
+2025-03-12 15:17:40,032 [WARNING] USER:aditya_shekhar generator.py:76:generate_configuration_files LOG: The config_path property is not specified. The working directory is used
+2025-03-12 15:17:40,033 [WARNING] USER:aditya_shekhar generator.py:93:generate_configuration_files LOG: The "project_path" property is not specified. The working directory will be used as a project path. To change the path, edit the syndicate.yml by path C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task05\.syndicate-config-dev
+2025-03-12 15:17:40,040 [INFO] USER:aditya_shekhar generator.py:155:generate_configuration_files LOG: Syndicate initialization has been completed. 
+Set SDCT_CONF:
+Unix: export SDCT_CONF="C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task05\.syndicate-config-dev"
+Windows: setx SDCT_CONF C:\Users\aditya_shekhar\Desktop\epam-projects\AWS\AWS\task05\.syndicate-config-dev
+2025-03-12 15:17:40,046 [INFO] USER:aditya_shekhar helper.py:330:timed LOG: Stage config, elapsed time: 0:00:02.426177
